@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Blood Donation Survey</title>
+</head>
+<body>
+	<h1>Blood Donation Survey</h1>
+	
+	<form action="" method="get">
+	
+	<label for="gender">Please indicate your gender:</label><br>
+	<input type="radio" id="male" name="gender" value="male">
+  	<label for="male">Male</label>
+  	<input type="radio" id="female" name="gender" value="female">
+  	<label for="female">Female</label>
+  	<br><br>
+  	<label for="age">Please indicate your age:</label><br>
+  	<input type="number" id="age" name="age" min="1">
+  	<br><br>
+  	<label for="donate">Have you ever donated a blood:</label><br>
+	<input type="radio" id="yes" name="donate" value="yes">
+  	<label for="yes">Yes</label>
+  	<input type="radio" id="no" name="donate" value="no">
+  	<label for="no">No</label><br><br>
+  	<label for="donated">If yes, how many times within the last 2 years:</label><br>
+	<input type="radio" id="0" name="donated" value="0">
+  	<label for="0">0</label>
+	<input type="radio" id="1" name="donated" value="1">
+  	<label for="1">1</label>
+  	<input type="radio" id="2-3" name="donated" value="2-3">
+  	<label for="2-3">2-3</label>
+  	<br><br>
+  	<label for="prompted">What prompted you to donate blood?</label><br>
+  	<input type="checkbox" id="reason" name="reason" value="emergency">
+  	<label for="type1">Emergency call for blood donation</label><br>
+  	<input type="checkbox" id="reason" name="reason" value="community">
+  	<label for="type2">Community Support</label><br>
+  	<input type="checkbox" id="reason" name="reason" value="other">
+  	<label for="type3">Other</label>
+  	<br><br>
+  	<button type="submit">Submit</button>
+  	<button type="reset">Reset</button>
+	</form>
+</body>
+</html>
